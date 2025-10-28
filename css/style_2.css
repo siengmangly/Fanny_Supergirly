@@ -1,0 +1,216 @@
+html{
+     scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1600px;
+    background-position: top;
+}
+.space{
+    margin: 30px;
+}
+.head{
+    font-family: "Minecraft Ten";
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(to right, #ff6600, #ffcc00);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.8px white; 
+}
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    line-height: 25px;
+}
+.link_button{
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    background: none;
+    padding: 20px 30px;
+    font-family: "Minecraft Ten";
+    margin: 20px 15px ;
+    cursor: pointer;
+    display: inline-block;
+}
+.place_button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+hr{
+    color: white;
+    width: 80%;
+    
+}
+.page{
+    margin: 11px;
+}
+.fanny_img{
+    width: 700px;
+}
+.avatar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+td{
+    font-size: 18px;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.name_card{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chibi_card{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 165px;
+    margin: 20px;
+}
+.chibi_head{
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-family: "Minecraft Ten";
+}
+.card_head{
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-family: "Minecraft Ten";
+}
+.back_button{
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background: none;
+    padding: 15px 30px;
+    font-family: "Minecraft Ten";
+    margin: 20px 15px ;
+    cursor: pointer;
+    display: inline-block;
+}
+.bt_page{
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 70px;
+}
+.chibi{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.chibi_img{
+    width: 600px;
+}
+.logo_img{
+    width: 500px;
+}
+.condition{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.con_head{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: "Minecraft Ten";
+    height: 20px;
+}
+.con_card{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact_card{
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ty{
+    color: white;
+    text-align: center;
+    font-family: "Minecraft Ten";
+    font-size: 26px;
+}
+.descripton{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.condi_h{
+    height: 40px;
+}
+.scroll{
+    right: 0;
+    top: 85%;
+    width: 80px;
+    margin-right: 15px;
+    position: fixed;
+    animation-name: appear;
+    animation-timeline: scroll(y);
+}
+@keyframes appear {
+    0%{
+        opacity: 0;
+        display: none;
+    }
+    100%{
+        opacity: 1;
+        display: block;
+    }
+}
+.loding{
+    opacity: 0;
+    top: 0;
+    left: 0;
+    animation: appear 1s ease-out forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
