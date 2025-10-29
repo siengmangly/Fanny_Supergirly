@@ -8,8 +8,12 @@ body{
     background-size: 1600px;
     background-position: top;
 }
+@font-face {
+    font-family: MinecraftTen;
+    src: url("/font/MinecraftTen-VGORe.ttf") format("truetype");
+}
 .head{
-    font-family: "Minecraft Ten";
+    font-family: MinecraftTen;
     letter-spacing: 1px;
     text-align: center;
     font-size:40px;
@@ -26,7 +30,7 @@ body{
     border-radius: 10px;
     background: none;
     padding: 20px 30px;
-    font-family: "Minecraft Ten";
+    font-family: MinecraftTen;
     margin: 20px 15px ;
     cursor: pointer;
     display: inline-block;
@@ -88,13 +92,13 @@ td:first-child {
       border: 2px solid white;
       border-radius: 10px;
       padding: 20px 20px;
-      font-family: "Minecraft Ten";
+      font-family: MinecraftTen;
       margin-right: 30px;
 }
 .card_head{
     color: white;
     text-align: center;
-    font-family: "Minecraft Ten";
+    font-family: MinecraftTen;
     margin-right: 30px;
     font-size: 26px;
 }
@@ -141,7 +145,7 @@ td:first-child {
 .ty{
     color: white;
     text-align: center;
-    font-family: "Minecraft Ten";
+    font-family: MinecraftTen;
     font-size: 26px;
 }
 .copy{

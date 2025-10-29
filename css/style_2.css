@@ -1,3 +1,7 @@
+@font-face {
+    font-family: MinecraftTen;
+    src: url("/font/MinecraftTen-VGORe.ttf") format("truetype");
+}
 html{
      scroll-behavior: smooth;
 }
@@ -12,7 +16,7 @@ body{
     margin: 30px;
 }
 .head{
-    font-family: "Minecraft Ten";
+    font-family: MinecraftTen;
     letter-spacing: 1px;
     text-align: center;
     font-size: 40px;
@@ -36,7 +40,7 @@ body{
     border-radius: 10px;
     background: none;
     padding: 20px 30px;
-    font-family: "Minecraft Ten";
+    font-family: MinecraftTen;
     margin: 20px 15px ;
     cursor: pointer;
     display: inline-block;
@@ -92,13 +96,13 @@ td{
     font-size: 26px;
     color: white;
     text-align: center;
-    font-family: "Minecraft Ten";
+    font-family: MinecraftTen;
 }
 .card_head{
     font-size: 26px;
     color: white;
     text-align: center;
-    font-family: "Minecraft Ten";
+    font-family: MinecraftTen;
 }
 .back_button{
     border: 2px solid white;
@@ -107,7 +111,7 @@ td{
     border-radius: 10px;
     background: none;
     padding: 15px 30px;
-    font-family: "Minecraft Ten";
+    font-family: MinecraftTen;
     margin: 20px 15px ;
     cursor: pointer;
     display: inline-block;
@@ -142,7 +146,7 @@ td{
     font-size: 20px;
     color: white;
     text-align: center;
-    font-family: "Minecraft Ten";
+    font-family: MinecraftTen;
     height: 20px;
 }
 .con_card{
@@ -161,7 +165,7 @@ td{
 .ty{
     color: white;
     text-align: center;
-    font-family: "Minecraft Ten";
+    font-family: "MinecraftTen";
     font-size: 26px;
 }
 .descripton{
