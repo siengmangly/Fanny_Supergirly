@@ -12,6 +12,9 @@ body{
     font-family: MinecraftTen;
     src: url("/font/MinecraftTen-VGORe.ttf") format("truetype");
 }
+.h_1{
+    height: 50px;
+}
 .head{
     font-family: MinecraftTen;
     letter-spacing: 1px;
@@ -49,7 +52,7 @@ hr{
 .descripton{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     line-height: 30px;
     height: 100px;
