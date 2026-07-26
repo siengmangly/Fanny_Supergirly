@@ -1,0 +1,185 @@
+html{
+     scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1600px;
+    background-position: top;
+}
+.head{
+    font-family: "Minecraft Ten";
+    letter-spacing: 1px;
+    text-align: center;
+    font-size:40px;
+    background: linear-gradient(to right, #ff6600, #ffcc00);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.8px white; 
+}
+.link_button{
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    background: none;
+    padding: 20px 30px;
+    font-family: "Minecraft Ten";
+    margin: 20px 15px ;
+    cursor: pointer;
+    display: inline-block;
+}
+.place_button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    color: white;
+    width: 80%;
+    
+}
+.descripton{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    height: 100px;
+}
+.logo_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    
+}
+.img_width{
+    max-width: 400px;
+}
+.fanny_img{
+    width: 500px;
+}
+.about_me{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+td{
+    font-size: 20px;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+td:first-child {
+      text-align: left;
+    }
+
+    td:last-child {
+      text-align: left;
+    }
+.name_card{
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 20px 20px;
+      font-family: "Minecraft Ten";
+      margin-right: 30px;
+}
+.card_head{
+    color: white;
+    text-align: center;
+    font-family: "Minecraft Ten";
+    margin-right: 30px;
+    font-size: 26px;
+}
+.social_card{
+      border: 2px solid white;
+      font-size: 23px;
+      border-radius: 10px;
+      padding: 20px 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-right: 30px;
+}
+.icon{
+    cursor: pointer;
+}
+.payment{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.aba_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aba_width{
+    width: 500px;
+}
+.aba_name{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.last_btn{
+    border: none;
+    background: none;
+    color: #ffcc00;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+.ty{
+    color: white;
+    text-align: center;
+    font-family: "Minecraft Ten";
+    font-size: 26px;
+}
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.scroll{
+    right: 0;
+    top: 85%;
+    width: 80px;
+    margin-right: 15px;
+    position: fixed;
+    animation-name: appear;
+    animation-timeline: scroll(y);
+}
+@keyframes appear {
+    0%{
+        opacity: 0;
+        display: none;
+    }
+    100%{
+        opacity: 1;
+        display: block;
+    }
+}
+.loding{
+    opacity: 0;
+    top: 0;
+    left: 0;
+    animation: appear 1s ease-out forwards;
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
